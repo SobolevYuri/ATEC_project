@@ -1,11 +1,14 @@
 import React from "react";
+import { Header, Main, Footer } from "./app.components/base.components";
 
 export default class App extends React.Component {
-  constructor(props) {
-    super(props);
-  }
-
   render() {
-    return <div className="App">Say hi!</div>;
+    return (
+      <React.Fragment>
+        <Header />
+        <Main />
+        <Footer />
+      </React.Fragment>
+    );
   }
 }
