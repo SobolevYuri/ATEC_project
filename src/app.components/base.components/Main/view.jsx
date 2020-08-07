@@ -1,12 +1,13 @@
-import React from 'react';
-import injectSheet from 'react-jss';
+import React from "react";
+import injectSheet from "react-jss";
 import styles from "./style";
 
-class Main extends React.Component {
+import { HomePage } from "../../page.components/index";
 
-    render() {
-        return null;
-    }
+class Main extends React.Component {
+  render() {
+    return <HomePage />;
+  }
 }
 
 export default injectSheet(styles)(Main);

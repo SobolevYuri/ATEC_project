@@ -1,6 +1,6 @@
 const styles = {
   defaultHeaderStyles: {
-    position: "absolute",
+    position: "fixed",
     top: "0",
     left: "0",
   },

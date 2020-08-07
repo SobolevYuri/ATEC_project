@@ -7,6 +7,7 @@ import styles from "./style";
 import classNames from "classnames";
 
 class Header extends React.Component {
+
   render() {
     const headerClasses = classNames(
       this.props.classes.defaultHeaderStyles,

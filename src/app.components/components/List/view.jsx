@@ -6,9 +6,11 @@ import styles from "./style";
 import { ListItem } from "../index";
 
 class List extends React.Component {
+  shouldComponentUpdate() {
+    return false;
+  }
 
   render() {
-
     const classes = classNames(this.props.classes.defaultListStyles, {
       [this.props.classes.horizontalAlign]: this.props.isHorizontal,
       [this.props.classes.verticalAlign]: this.props.isVertical,

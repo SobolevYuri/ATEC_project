@@ -5,6 +5,7 @@ import { List } from "../index";
 
 class Menu extends React.Component {
   render() {
+
     return (
       <nav className={this.props.classes.defaultMenuStyles}>
         <List itemsArray={this.props.menuItemsArray} {...this.props} />
